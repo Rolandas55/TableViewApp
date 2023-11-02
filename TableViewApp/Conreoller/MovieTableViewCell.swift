@@ -13,7 +13,6 @@ class MovieTableViewCell: UITableViewCell {
     @IBOutlet weak var movieLabel: UILabel!
     @IBOutlet weak var movieYearLabel: UILabel!
     @IBOutlet weak var movieGenreLabel: UILabel!
-    var boxbox: String = "smooth"
     
     override func awakeFromNib() {
         super.awakeFromNib()
